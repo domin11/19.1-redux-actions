@@ -47,7 +47,7 @@ function thumbUpComment(id, like) {
   }
 }
 
-const boundThumbUpComment = id, like => dispatch(thumUpComment(id, like));
+const boundThumbUpComment = id, like => dispatch(thumbUpComment(id, like));
 
 // Łapka w dół
 function thumbDowmComment(id, dislike) {
@@ -58,4 +58,4 @@ function thumbDowmComment(id, dislike) {
   }
 }
 
-const boundThumbDownComment = id, dislike => dispatch(thumDownComment(id, dislike));
+const boundThumbDownComment = id, dislike => dispatch(thumbDownComment(id, dislike));
