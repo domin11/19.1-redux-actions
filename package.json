@@ -1,0 +1,22 @@
+{
+  "name": "redux.actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "actions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domin11/19.1-redux-actions.git"
+  },
+  "author": "domin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/domin11/19.1-redux-actions/issues"
+  },
+  "homepage": "https://github.com/domin11/19.1-redux-actions#readme",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
+}
