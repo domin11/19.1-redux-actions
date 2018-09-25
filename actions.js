@@ -21,7 +21,7 @@ const boundAddComment = text => dispatch(addComment(text));
 function removeComment(id) {
   return {
     type: REMOVE_COMMENT,
-    id: 4
+    id: id
   }
 }
 
@@ -32,7 +32,7 @@ function editComment(text, id) {
   return {
     type: EDIT_COMMENT,
     text: 'Nowy tekst',
-    id: 6
+    id: id
   }
 }
 
@@ -42,7 +42,7 @@ const boundEditComment = text, id => dispatch(editComment(text, id));
 function thumbUpComment(id, like) {
   return {
     type: THUMB_UP_COMMENT,
-    id: 7,
+    id: id,
     like: ++like
   }
 }
@@ -53,7 +53,7 @@ const boundThumbUpComment = id, like => dispatch(thumbUpComment(id, like));
 function thumbDowmComment(id, dislike) {
   return {
     type: THUMB_DOWN_COMMENT,
-    id: 11,
+    id: id,
     dislike: ++dislike
   }
 }
